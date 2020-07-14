@@ -1,1 +1,117 @@
+* {
+	box-sizing: border-box;
+}
+
+body{
+	margin:0px;
+}
+
+.main-container{
+	margin: 50px 20px 50px 20px;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+
+}
+
+.menu-box12{
+	padding: 10px;
+	display: inline-block;
+	text-align: center;
+	align-content: center;
+}
+
+.menu-box3{
+	padding: 10px;
+	display: inline-block;
+	text-align: center;
+	align-content: center;
+}
+
+.center-text{
+	text-align: center;
+}
+
+.inner-menu-box{
+	border: 1px solid #000;
+	background-color: #999999;
+	
+
+}
+
+.box-pink{
+	background-color: #d59898;
+	border: 1px solid #000;
+	width: 150px;
+	text-align:center;
+	height: 30px;
+}
+
+.box-red{
+	background-color: #c14543;
+	border: 1px solid #000;
+	width: 150px;
+	text-align:center;
+	height: 30px;
+	color: #fff;
+}
+
+.box-yellow{
+	background-color: #e5d198;
+	border: 1px solid #000;
+	width: 150px;
+	text-align:center;
+	height: 30px;
+}
+
+.title-box{
+	
+	float: right;
+
+	
+}
+
+.no-margin{
+	margin-top: 0px;
+
+}
+
+.description{
+	margin-top: 10px;
+	padding: 10px;
+
+}
+
+/* for large devices*/
+
+@media (min-width: 992px) {
+	
+.menu-box12, .menu-box3 {
+	width:33.00%;
+}	
+}
+
+/* for medium devices*/
+@media (min-width: 768px) and (max-width: 991px) {
+	
+.menu-box12{
+	width:49.67%;
+}	
+
+.menu-box3{
+	width:100%;
+}	
+
+}
+
+/* for small devices*/
+
+@media (max-width: 767px) {
+	
+.menu-box12, .menu-box3 {
+	width:100%;
+}	
+}
+
+
+
+
 
